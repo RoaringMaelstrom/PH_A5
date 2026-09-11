@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from "../assets/logo-text.png"
 const Nav = () => {
     return (
-        <div className="navbar container bg-base-100 shadow-sm">
+        <div className="navbar sticky top-0 container bg-base-100 shadow-sm">
         <div className="navbar-start pl-16">
             <img src={Logo} alt='Site-Logo Small'/>
         </div>

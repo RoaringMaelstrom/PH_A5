@@ -3,7 +3,7 @@ import BannerImg from "../assets/banner-stack.png"
 
 const Banner = () => {
     return (
-        <div className='flex justify-between bg-red-500'>
+        <div className='flex justify-between'>
             <div className='flex-col p-18'>
                 <h1 className='text-6xl font-extrabold'>Build You Ideal <br /> 
                     <span className="bg-[linear-gradient(90deg,#FF5722_0%,#D81B7E_50%,#7C3AED_100%)] bg-clip-text text-transparent">Development Stack</span>
