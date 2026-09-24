@@ -7,7 +7,7 @@
     "difficulty": "Beginner-Friendly",
     "rating": 4.9,
     "badge": "Popular",
-    "logo": "../src/assets/React-icon.svg.webp"
+    "logo": "https://icon.icepanel.io/Technology/svg/React.svg"
   },
   {
     "id": "vue",
@@ -17,7 +17,7 @@
     "difficulty": "Beginner-Friendly",
     "rating": 4.8,
     "badge": "Versatile",
-    "logo": "../src/assets/Vue.js_Logo_2.svg.webp"
+    "logo": "https://icon.icepanel.io/Technology/svg/Vue.js.svg"
   },
   {
     "id": "svelte",
@@ -27,7 +27,7 @@
     "difficulty": "Intermediate",
     "rating": 4.8,
     "badge": "Fast",
-    "logo": "../src/assets/Svelte.png"
+    "logo": "https://icon.icepanel.io/Technology/svg/Svelte.svg"
   },
   {
     "id": "nextjs",
@@ -36,8 +36,7 @@
     "category": "Frontend",
     "difficulty": "Intermediate",
     "rating": 4.9,
-    "badge": "SSR / Edge",
-    "logo": "../src/assets/nextjs.jpg"
+    "logo": "https://icon.icepanel.io/Technology/svg/Next.js.svg"
   },
   {
     "id": "nodejs",
@@ -47,7 +46,7 @@
     "difficulty": "Intermediate",
     "rating": 4.8,
     "badge": "Standard",
-    "logo": "../src/assets/nodejs-icon.svg"
+    "logo": "https://icon.icepanel.io/Technology/svg/Node.js.svg"
   },
   {
     "id": "postgresql",
@@ -57,7 +56,7 @@
     "difficulty": "Intermediate",
     "rating": 4.9,
     "badge": "Top SQL",
-    "logo": "../src/assets/Postgresql_elephant.svg.webp"
+    "logo": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg"
   },
   {
     "id": "redis",
@@ -67,7 +66,7 @@
     "difficulty": "Intermediate",
     "rating": 4.8,
     "badge": "Cache",
-    "logo": "../src/assets/redis-logo.svg"
+    "logo": "https://icon.icepanel.io/Technology/svg/Redis.svg"
   },
   {
     "id": "javascript",
@@ -77,7 +76,7 @@
     "difficulty": "Beginner-Friendly",
     "rating": 4.9,
     "badge": "Ubiquitous",
-    "logo": "../src/assets/Unofficial_JavaScript_logo_2.svg.webp"
+    "logo": "https://icon.icepanel.io/Technology/svg/JavaScript.svg"
   },
   {
     "id": "typescript",
@@ -87,7 +86,7 @@
     "difficulty": "Intermediate",
     "rating": 4.9,
     "badge": "Essential",
-    "logo": "../src/assets/Typescript.png"
+    "logo": "https://icon.icepanel.io/Technology/svg/TypeScript.svg"
   },
   {
     "id": "java",
@@ -97,7 +96,7 @@
     "difficulty": "Intermediate",
     "rating": 4.6,
     "badge": "Robust",
-    "logo": "../src/assets/java.png"
+    "logo": "https://icon.icepanel.io/Technology/svg/Java.svg"
   },
   {
     "id": "tailwindcss",
@@ -107,7 +106,7 @@
     "difficulty": "Beginner-Friendly",
     "rating": 4.9,
     "badge": "Modern",
-    "logo": "../src/assets/Tailwind_CSS_Logo.svg.webp"
+    "logo": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg"
   },
   {
     "id": "docker",
@@ -117,6 +116,6 @@
     "difficulty": "Intermediate",
     "rating": 4.9,
     "badge": "Containers",
-    "logo": "../src/assets/Docker.png"
+    "logo": "https://icon.icepanel.io/Technology/svg/Docker.svg"
   }
 ]

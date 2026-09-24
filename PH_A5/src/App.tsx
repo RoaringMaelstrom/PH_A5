@@ -6,7 +6,6 @@ import Copyright from './components/Copyright';
 import SelectionSection from './components/SelectionSection';
 
 
-
 function App() {
 
   return (
@@ -18,6 +17,7 @@ function App() {
     </Suspense>
     <Footer/>
     <Copyright/>
+    
     </>
   )
 }

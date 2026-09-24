@@ -1,3 +1,4 @@
+
 import type { Technology } from "../Types/Technology";
 import { FaStar } from "react-icons/fa";
 
@@ -7,11 +8,14 @@ interface SelectionCardProps {
   onSelect: (id: string) => void;
 }
 
+
+
 function SelectionCard({
   technology,
   isSelected,
   onSelect,
 }: SelectionCardProps) {
+
   return (
     <article className={`card border ${isSelected ? "border-2 border-purple-500" : "border border-base-300"} bg-base-100 shadow-sm transition-shadow hover:shadow-md`}>
       <div className="card-body">
