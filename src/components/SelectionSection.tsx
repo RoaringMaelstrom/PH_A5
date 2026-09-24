@@ -1,24 +1,16 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import SelectionGrid from "./Technologies/SelectionGrid";
 import SelectedStack from "./Technologies/SelectedStack";
 
 import type { Technology } from "./Types/Technology";
 
-function SelectionSection() {
-  const [technologies, setTechnologies] = useState<Technology[]>([]);
+interface SelectionSectionProps {
+  technologies: Technology[];
+}
+
+function SelectionSection({technologies,}: SelectionSectionProps) {
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
-
-  useEffect(() => {
-    const fetchTechnologies = async (): Promise<void> => {
-        const response = await fetch("data.json");
-
-        const data: Technology[] = await response.json();
-        setTechnologies(data);
-    };
-
-    fetchTechnologies();}
-    , []);
 
   const handleSelect = (id: string) => {
     setSelectedIds((previous) => {
@@ -32,12 +24,8 @@ function SelectionSection() {
     );
   };
 
-  // const availableTechnologies = technologies.filter(
-  //   (technology) => !selectedIds.includes(technology.id)
-  // );
-
   const selectedTechnologies = technologies.filter(
-    (technology) => selectedIds.includes(technology.id)
+    (technology: Technology) => selectedIds.includes(technology.id)
   );
 
   return (
