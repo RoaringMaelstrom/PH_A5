@@ -1,7 +1,6 @@
 export interface Technology {
   id: string;
   name: string;
-  logo: string;
   description: string;
   category: string;
   difficulty: string;

@@ -14,7 +14,6 @@ function SelectionCard({
     <article className="card border border-base-300 bg-base-100 shadow-sm transition-shadow hover:shadow-md">
       <div className="card-body">
 
-        {/* Logo + badge */}
         <div className="flex items-start justify-between">
           <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-base-200 p-2">
             <img
@@ -25,18 +24,15 @@ function SelectionCard({
           </div>
 
           {technology.badge && (
-            <span className="badge badge-primary">
+            <span className="badge badge-secondary">
               {technology.badge}
             </span>
           )}
         </div>
 
-        {/* Name */}
         <h3 className="mt-3 text-lg font-bold">
           {technology.name}
         </h3>
-
-        {/* Description */}
         <p className="line-clamp-3 text-[12px] text-gray-500">
           {technology.description}
         </p>
@@ -56,8 +52,6 @@ function SelectionCard({
             <span>{technology.rating}</span>
             </div>
           </div>
-
-          {/* Rating */}
           
         </div>
 
