@@ -3,11 +3,13 @@ import SelectionCard from "./SelectionCard";
 
 interface SelectionGridProps {
   technologies: Technology[];
+  selectedIds: string[];
   onSelect: (id: string) => void;
 }
 
 function SelectionGrid({
   technologies,
+  selectedIds,
   onSelect,
 }: SelectionGridProps) {
   return (
@@ -17,6 +19,7 @@ function SelectionGrid({
           <SelectionCard
             key={technology.id}
             technology={technology}
+            isSelected={selectedIds.includes(technology.id)}
             onSelect={onSelect}
           />
         ))}

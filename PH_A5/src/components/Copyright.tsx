@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Copyright = () => {
     return (
         <div className='flex justify-between bg-base-200 px-16 py-8 text-[12px] text-gray-400'>

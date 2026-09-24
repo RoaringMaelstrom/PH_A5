@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+
 import SelectionGrid from "./Technologies/SelectionGrid";
 import SelectedStack from "./Technologies/SelectedStack";
 
@@ -21,10 +22,6 @@ function SelectionSection() {
 
   const handleSelect = (id: string) => {
     setSelectedIds((previous) => {
-      if (previous.includes(id)) {
-        return previous;
-      }
-
       return [...previous, id];
     });
   };
@@ -59,6 +56,7 @@ function SelectionSection() {
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_270px]">
         <SelectionGrid
           technologies={technologies}
+          selectedIds={selectedIds}
           onSelect={handleSelect}
         />
 

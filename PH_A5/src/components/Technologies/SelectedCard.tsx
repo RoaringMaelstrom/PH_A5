@@ -1,4 +1,4 @@
-import type { Technology } from "../types/technology";
+import type { Technology } from "../Types/Technology";
 
 interface SelectedCardProps {
   technology: Technology;
@@ -12,7 +12,6 @@ function SelectedCard({
   return (
     <div className="flex items-center gap-3 rounded-lg border border-base-300 bg-base-100 p-3">
 
-      {/* Logo */}
       <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-base-200 p-2">
         <img
           src={technology.logo}
@@ -21,7 +20,6 @@ function SelectedCard({
         />
       </div>
 
-      {/* Name + category */}
       <div className="min-w-0 flex-1">
         <h3 className="truncate font-semibold">
           {technology.name}
@@ -32,7 +30,6 @@ function SelectedCard({
         </p>
       </div>
 
-      {/* Remove */}
       <button
         type="button"
         className="btn btn-ghost btn-sm btn-circle"
