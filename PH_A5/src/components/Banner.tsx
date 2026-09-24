@@ -13,7 +13,7 @@ const Banner = () => {
                     compare them side by side, and put together a stack that fits your next project.
                 </div>
                 <div className='flex py-8 gap-x-3'>
-                    <button className="btn bg-[linear-gradient(90deg,#F97316_0%,#EC4899_100%)]">Explore Technologies</button>
+                    <button className="btn bg-[linear-gradient(90deg,#FF5722_0%,#D81B7E_50%,#7C3AED_100%)]">Explore Technologies</button>
                     <button className="btn px-12 btn-neutral btn-outline">Learn More</button>
                 </div>
             </div>
