@@ -31,11 +31,11 @@ function App() {
     <>
     <Nav/>
     <Banner/>
-    <Suspense fallback={<span className='loading loading-dots loading-dots-xl'></span>}>
+    {/* <Suspense fallback={<span className='loading loading-dots loading-dots-xl'></span>}>
       <SelectionSection 
       technologies={technologies}
       />
-    </Suspense>
+    </Suspense> */}
     <Footer/>
     <Copyright/>
     
